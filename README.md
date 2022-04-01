@@ -1,4 +1,4 @@
-# Three CLI
+# CLI Three
 
 Version **1.0.0**
 
