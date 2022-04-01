@@ -3,12 +3,11 @@
 Version **1.0.0**
 
 A command line interface to initialize projects runing with Vite.  
-A CLI tool that add Three.js library and merges a template in your root folder.  
+Add Three.js library and merges a template in your root folder.  
 Offers 3 types of templates right out of the box:
 - Vanilla
 - Vue
 - React
-
 
 ## Installation
 
