@@ -1,0 +1,34 @@
+{
+  "name": "cli-three",
+  "version": "1.0.0",
+  "description": "A Three js command line interface - using Vite",
+  "author": "Gabriel Misiurny",
+  "license": "MIT",
+  "repository": "https://github.com/gmisiurny/cli-three.git",
+  "main": "app/main.js",
+  "type": "module",
+  "bin": {
+    "vite-starter": "bin/vite-config.js",
+    "cli-three": "app/main.js"
+  },
+  "keywords": [
+    "three.js",
+    "template",
+    "cli",
+    "frontend",
+    "vite",
+    "vue",
+    "react"
+  ],
+  "dependencies": {
+    "caporal": "^1.4.0",
+    "chalk": "^5.0.1",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "process": "^0.11.10",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  }
+}
