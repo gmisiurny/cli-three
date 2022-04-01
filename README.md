@@ -2,5 +2,26 @@
 
 Version **1.0.0**
 
-A Three js command line interface - using Vite
+A command line interface to initialize projects runing with Vite.  
+A CLI tool that add Three.js library and merges a template in your root folder.  
+Offers 3 types of templates right out of the box:
+- Vanilla
+- Vue
+- React
 
+
+## Installation
+
+`npx cli-three`
+
+## Usage
+
+Vannilla template:  
+- `npx cli-three init myapp`  
+- `npx cli-three init myapp --conf vannilla`
+
+Vue template:  
+`npx cli-three init myapp --conf vue`
+
+React template:  
+`npx cli-three init myapp --conf react`
