@@ -5,7 +5,7 @@ import {
 	colorOpt,
 	colorReq,
 	description
-} from '../Utils/cli-utils.js';
+} from '../utils/cli-utils.js';
 
 
 import prog from 'caporal';
