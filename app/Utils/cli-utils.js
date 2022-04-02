@@ -5,7 +5,7 @@ import figlet from 'figlet';
 export const colorReq = (elt) => chalk.blueBright(elt);
 export const colorOpt = (elt) => chalk.yellow(elt);
 
-export const title = gradient.cristal.multiline(figlet.textSync('three-cli'.toUpperCase(), {
+export const title = gradient.cristal.multiline(figlet.textSync('cli-three'.toUpperCase(), {
 	font: 'DOS Rebel',
 	horizontalLayout: 'full',
 	verticalLayout: 'default',
