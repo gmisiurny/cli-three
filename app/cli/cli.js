@@ -16,7 +16,7 @@ import gradient from 'gradient-string';
 export const cli = () => {
 	const start = Date.now();
 	prog
-		.version('1.0.3')
+		.version('1.0.4')
 		.name(title)
 		.description(description);
 

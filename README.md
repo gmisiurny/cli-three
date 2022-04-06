@@ -1,6 +1,6 @@
 # CLI Three
 
-Version **1.0.1**
+Version **1.0.4**
 
 A command line interface to initialize projects runing with Vite.  
 Add Three.js library and merges a template in your root folder.  
