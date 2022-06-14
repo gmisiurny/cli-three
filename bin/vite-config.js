@@ -21,7 +21,7 @@ case'vanilla':
 		'<div id="app"></div>\n    <canvas class="webgl"></canvas>',
 		'index.html'
 	);
-	shell.exec('echo const experience = new Experience(document.querySelector("canvas.webgl")) >> main.js');
+	shell.exec('echo `const experience = new Experience(document.querySelector("canvas.webgl"))` >> main.js');
 	shell.sed(
 		'-i',
 		'import \'./style.css\'',
@@ -44,7 +44,7 @@ case 'vue':
 	shell.cd('three-experience');
 	shell.exec('rm -rf .git/');
 	shell.cd('..');
-	shell.exec('echo const experience = new Experience(document.querySelector("canvas.webgl")) >> main.js');
+	shell.exec('echo `const experience = new Experience(document.querySelector("canvas.webgl"))` >> main.js');
 	shell.sed(
 		'-i',
 		'import App from \'./App.vue\'',
